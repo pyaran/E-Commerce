@@ -1,3 +1,4 @@
+import Navbar from './Components/Navbar/Navbar';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -8,7 +9,9 @@ import {
 function App() {
   return (
     <Router>
-      
+      <Navbar>
+        
+      </Navbar>
     </Router>
   );
 }
