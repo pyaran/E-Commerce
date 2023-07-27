@@ -25,9 +25,9 @@ function Navbar(){
                             <li>Favoritos</li>
                             <li><FaShoppingCart/></li>
                             <li><FaRegCircleQuestion/></li>
-                            <label for="open-close" className="close-menu"><i><FaTimes/></i></label>
+                            <label htmlFor="open-close" className="close-menu"><i><FaTimes/></i></label>
                         </div>
-                        <label for="open-close" className="open-menu"><i><FaBars/></i></label>
+                        <label htmlFor="open-close" className="open-menu"><i><FaBars/></i></label>
                     </ul>
                 </nav>
             </div>
